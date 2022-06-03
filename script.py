@@ -99,7 +99,6 @@ def delete_files_program():
     while True:
         print("1 - Deletar arquivos .exe presentes nesta pasta")
         print("2 - Deletar arquivos .exe de outra pasta")
-
         op = int(input())
         
         if op == 1 or op == 2:
